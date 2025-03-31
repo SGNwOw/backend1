@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'heroes.apps.HeroesConfig'
 ]
 
 MIDDLEWARE = [
@@ -79,7 +80,7 @@ DATABASES = {
         'NAME': 'my_db',
         'USER': 'your_db_user',
         'PASSWORD': '1234',
-        'HOST': 'db',
+        'HOST': 'db',   
         'PORT': '5432',
     }
 }
